@@ -1,0 +1,28 @@
+#Dando mas de un valor a la funcion
+
+#Sin retorno
+def sumar(valor1, valor2):
+  suma = valor1 + valor2
+
+  print(suma)
+
+numero1 = int(input('Ingrese el un valor:\n'))
+
+numero2 = int(input('Ingrese el un valor:\n'))
+
+sumar(numero1, numero2)
+
+#Con retorno
+
+def sumar(valor1, valor2):
+  suma = valor1 + valor2
+
+  return suma
+
+numero1 = int(input('Ingrese el unvalor:\n'))
+
+numero2 = int(input('Ingrese el unvalor:\n'))
+
+resultado = sumar(numero1, numero2)
+
+print(resultado)
