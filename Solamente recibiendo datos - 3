@@ -1,0 +1,14 @@
+#No darle parametros a la funcion, pero si devolver retorno
+
+def pidiendo_edad():
+
+  edad = int(input('Igrese su edad:\n'))
+
+  return edad
+
+verificar = pidiendo_edad()
+
+if verificar >= 18:
+  print('Usted es mayor de edad.')
+else:
+  print('Usted no es mayor de edad.')  
