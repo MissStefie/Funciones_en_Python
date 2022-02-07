@@ -1,0 +1,13 @@
+#Retornando mas de un valor de la funcion
+
+def anterior_superior(valor):
+  num_anterior = valor - 1
+  num_superior = valor + 1
+
+  return num_anterior, num_superior
+
+numero = int(input('Ingrese un numero:\n'))
+
+antes, despues = anterior_superior(numero)
+
+print(antes, numero, despues)
