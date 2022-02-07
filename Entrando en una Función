@@ -1,0 +1,9 @@
+#Entrar en una funcion
+
+def primera_funcion():
+  print('Ahora estoy en la funcion')
+
+#Especificar que las funciones se definen en la primera parte del codigo SIEMPRE
+
+
+primera_funcion()
