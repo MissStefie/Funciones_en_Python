@@ -1,0 +1,19 @@
+#Enviando mas de un valor y recibiendo mas de un valor de la funcion
+
+def multiplicacion_division(valor1, valor2):
+  mul = valor1*valor2
+
+  div = valor1/valor2
+
+  return mul, div
+
+
+numero1 = int(input('Digite un valor:\n'))
+
+numero2 = int(input('Digite un valor:\n'))
+
+
+rm, rd = multiplicacion_division(numero1, numero2)
+
+print(rm)
+print(rd)
