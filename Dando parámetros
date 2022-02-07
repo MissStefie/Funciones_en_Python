@@ -1,0 +1,20 @@
+#Darle parametros a la funcion
+
+#Sin retorno
+def cuadrado(valor):
+  print(valor*valor)
+
+numero = int(input('Ingrese un valor:\n'))
+
+cuadrado(numero)
+
+#Con retorno
+def cuadrado(valor):
+  c = valor*valor
+  return c
+
+numero = int(input('Ingrese un valor:\n'))
+
+numero_al_cuadrado = cuadrado(numero)
+
+print(numero_al_cuadrado)
